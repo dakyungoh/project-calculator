@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace, cursive;
+  /* border: 1px solid gray; */
+}
+
+body {
+  background-color: beige;
+  width: 100%;
+  margin: 40px auto;
+  padding: 100px;
+  text-align: center;
+}
+
+.calculator {
+  border: 3px solid #61876e;
+  border-radius: 20px;
+  background-color: #a6bb8d;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  -webkit-box-shadow: 6px 4px 24px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 6px 4px 24px -10px rgba(0, 0, 0, 1);
+  box-shadow: 6px 4px 24px -10px rgba(0, 0, 0, 1);
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cell {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #61876e;
+  border-radius: 30px;
+  font-size: 2rem;
+  -webkit-box-shadow: 3px 2px 9px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 2px 9px -3px rgba(0, 0, 0, 1);
+  box-shadow: 3px 2px 9px -3px rgba(0, 0, 0, 1);
+}
+
+.cell:hover {
+  background-color: #8c9e59;
+  color: white;
+  cursor: pointer;
+}
+
+.cell-result {
+  background-color: #faf8f1;
+  height: 110px;
+}
+
+.cell-equal {
+  background-color: #eae7b1;
+}
+
+.cell-number {
+  background-color: #faf8f1;
+}
+
+.cell-operator,
+.cell-reset {
+  background-color: #faeab1;
+}
+
+.cell-number-zero {
+  background-color: #faf8f1;
+  flex: 2;
+}
