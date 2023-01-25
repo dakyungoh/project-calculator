@@ -70,7 +70,8 @@ body {
 }
 
 .cell-operator,
-.cell-reset {
+.cell-reset,
+.cell-dot {
   background-color: #faeab1;
 }
 
