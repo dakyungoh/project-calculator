@@ -1,5 +1,3 @@
-// 숫자 누르면 더하기, 빼기, 곱하기, 나누기 구현
-// 소수점 누르면
 const calculator = document.querySelector(".calculator");
 const cellResult = document.querySelector(".cell-result");
 const cellReset = document.querySelector(".cell-reset");
